@@ -10,6 +10,7 @@ LABEL maintainer="aptalca"
 RUN \
  echo "**** install packages ****" && \
  apk add --no-cache \
+	ca-certificates \
 	curl \
 	findutils \
 	jq \
